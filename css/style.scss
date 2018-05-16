@@ -1,0 +1,15 @@
+@import 'menu';
+@import 'about';
+@import 'portfolio';
+@import 'pricing';
+@import 'calendar';
+@import 'blog';
+@import 'contact';
+@import 'footer';
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body{
+  background-color: black;
+}

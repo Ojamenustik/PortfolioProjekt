@@ -1,0 +1,110 @@
+//KOMÓRKI
+@keyframes menuSlide{
+   0%{left:-200px}
+   100%{left:0px}
+}
+.nav-wrapper{
+   
+   .mobile-button{
+      p{
+         color: aliceblue;
+      }
+      &:hover{
+        
+      }
+   }
+   nav{width: 200px;
+       position: fixed;
+       left: -200px;
+      div{
+         ul{padding: 0px;
+            margin: 0px;
+            li{
+               display: block;
+               a{
+                  padding-left: -10px;
+                  color: rgba(255,255,255,0.8);
+                  text-decoration: none;
+                  &:hover{
+                        color: rgba(255,255,255,1);
+                        }
+               }
+            }
+         }
+      }
+      .logo-container{
+               a{
+                  color: rgba(255,255,255,0.8);
+                  text-decoration: none;
+                 
+         }
+      }
+   }
+}
+
+
+
+//LAPTOPY
+@media screen and (min-width: 800px) {
+   .nav-wrapper{
+   
+   .mobile-button{
+      p{
+         display: none;
+      }
+   }
+   nav{width: 100%;
+       position: fixed;
+       left: 0px;
+       top: 0px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      div{
+         ul{padding-left: 10px;
+            margin: 0px;
+            li{
+               display: inline-block;
+               a{
+               }
+            }
+         }
+      }
+      .left-nav{
+         width: 40%;
+         
+         .main-about{
+            &:hover{
+               
+            }
+         }
+         .main-pricing{
+            &:hover{
+               
+            }
+         }
+         .main-calendar{
+            &:hover{
+               
+            }
+         }
+         .about{display: none;}
+         .pricing{display: none;}
+         .calendar{display: none;}
+         
+      }
+      .logo-container{width: 20%;
+               a{
+                  color: rgba(255,255,255,0.8);
+                  text-decoration: none;
+                 
+         }
+      }
+      .right-nav{
+         width: 40%;
+      }
+   }
+}
+
+}
